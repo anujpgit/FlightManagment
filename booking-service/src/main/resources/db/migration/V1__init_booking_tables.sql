@@ -1,0 +1,8 @@
+CREATE TABLE bookings (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    user_id BIGINT NOT NULL,
+    flight_id BIGINT NOT NULL,
+    pnr VARCHAR(20) NOT NULL,
+    status VARCHAR(20) NOT NULL,
+    created_at DATETIME NOT NULL
+);

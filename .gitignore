@@ -1,0 +1,22 @@
+# Maven / Java build output
+target/
+*.class
+
+# Logs
+*.log
+
+# Eclipse / STS
+.settings/
+.project
+.classpath
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+
+# Environment / config
+.env
+application.yml
+application.properties
